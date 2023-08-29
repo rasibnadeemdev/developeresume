@@ -40,7 +40,9 @@ const userData: IData = {
 				'MongoDB',
 				'Node.js',
 				'REST APIs',
-				'React Native'
+				'React Native',
+				'GraphQL',
+				'Firebase'
 			]
 		},
 		{
@@ -61,29 +63,28 @@ const userData: IData = {
 					id: uuidv4(),
 					projectName: 'Anatomic Iron',
 					content: [
-						`Engineered the front-end of an employee management platform in React for a Canadian company that is helping 3000+ employees. Implemented role-based authentication and authorization system using React Context API.`,
-						`Architected a reporting engine in React that generated dynamic project reports by applying provided data filters. Also implemented an export functionality to convert these reports to Excel for further analysis.`,
-						`Developed a time-logging feature to allow employees to log their daily work hours. Used Socket.IO to implement an in-app notification system to notify employees if their logged hours are insufficient.`
+						`Engineered the front end of an employee management platform in React for a Canadian company that is helping <strong>3000+</strong> employees. Implemented <strong>role-based</strong> authentication and authorization system using React Context API.`,
+						`Architected a <strong>reporting engine</strong> in React that generated dynamic project reports by applying provided data filters. Also implemented an <strong>export</strong> functionality to convert these reports to Excel for further analysis.`,
+						`Developed a time-logging feature to allow employees to log their daily work hours. Used Socket.IO to implement an <strong>in-app notification</strong> system to notify employees if their logged hours are insufficient.`
 					]
 				},
 				{
 					id: uuidv4(),
 					projectName: 'Roof Technology Partners',
 					content: [
-						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve its employee capabilities by offering training and certifications.
-`,
-						`Designed and implemented a user auth system by creating custom hooks with <strong>React</strong> Context API and JWT tokens for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
-						`Developed and integrated a certificate generator in the platform by using print() Web API and platform REST API to dynamically generate completion certificates that can be saved as PDFs.`,
-						`Implemented push notifications using Firebase and developed an in-app notification mechanism using Socket.IO to notify users about new training and certificates.`,
-						`Integrated Reactstrap design library to build the entire user interface and developed multiple custom components using it to introduce dynamic behavior.`,
-						`Used different libraries like React data table for data presentation and i18n for introducing multi-lingual capacity in the platform.`
+						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve its employee capabilities by offering training and certifications.`,
+						`Designed and implemented a user auth system by creating custom hooks with <strong>React</strong> Context API and <strong>JWT tokens</strong> for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
+						`Implemented <strong>push notifications</strong> using Firebase and developed an in-app notification mechanism using Socket.IO to notify users about new training and certificates.`,
+						`Integrated <strong>Reactstrap</strong> design library to build the user interface and components. Used different libraries like <strong>React data table</strong> and <strong>i18n</strong> for introducing multi-lingual capacity in the platform.`,
 					]
 				},
 				{
 					id: uuidv4(),
 					projectName: 'Lapco',
 					content: [
-						`Developed an e-commerce store web app using Next.js and React Redux for state management for a local computer vendor. Integrated features like product comparison, wishlist management, and a streamlined cart system.`
+						`Developed an e-commerce web app using <strong>Next.js</strong> and <strong>React Redux</strong> for a local computer vendor. Integrated features like product comparison, wishlist management, and a streamlined cart system.`,
+						`Developed a panel to power admin user to define <strong>custom form schema</strong>. Implemented a dynamic form feature that generates a “Sell to us” form from the server data based on admin provided schema. `,
+						`Engineered a coupon system using Next.js, Node.js, and MongoDB that lets admin generate coupons that can be used by customers on the checkout page.`
 					]
 				}
 			]

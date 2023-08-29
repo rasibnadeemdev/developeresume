@@ -23,6 +23,8 @@ export default function Home() {
 			<div className="bg-white min-h-screen text-black space-y-3 font-light">
 				<Header />
 				{data.experience.length ? <Experience /> : null}
+				<br/>
+				<br/>
 				{data.education.length ? <Education /> : null}
 				{data.projects.length ? <Projects /> : null}
 				{data.skills.length ? <Skills /> : null}
