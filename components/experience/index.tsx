@@ -18,17 +18,36 @@ const Experience = () => {
 						<em>{exp.location}</em>
 					</div>
 					<div className="my-2">
-						<ul className="pl-4 leading-5 space-y-3 w-[86%]">
-							{exp.tasks.map((task, index) => (
-								<div className="space-x-2 flex" key={index}>
-									<span>•</span>
-									<li
-										className="inline-block"
-										dangerouslySetInnerHTML={{
-											__html: task
-										}}
-									/>
-								</div>
+						<ul className="leading-5 space-y-3 w-[86%]">
+							{exp.tasks.map(task => (
+								<>
+									<div className="flex">
+										<h3>
+											<span className="font-semibold">
+												Project:{' '}
+											</span>
+											<em key={task.id}>
+												{task.projectName}
+											</em>
+										</h3>
+									</div>
+									{task.content.map((data: any, key: any) => {
+										return (
+											<div
+												className="pl-4 space-x-2 flex"
+												key={key}
+											>
+												<span>•</span>
+												<li
+													className="inline-block"
+													dangerouslySetInnerHTML={{
+														__html: data
+													}}
+												/>
+											</div>
+										);
+									})}
+								</>
 							))}
 						</ul>
 					</div>

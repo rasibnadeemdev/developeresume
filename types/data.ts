@@ -25,7 +25,7 @@ export interface IData {
 		company: string;
 		location: string;
 		duration: string;
-		tasks: string[];
+		tasks: any[];
 	}[];
 	projects: {
 		id: string;
