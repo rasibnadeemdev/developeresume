@@ -72,8 +72,8 @@ const userData: IData = {
 					id: uuidv4(),
 					projectName: 'Roof Technology Partners',
 					content: [
-						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve its employee capabilities by offering training and certifications.`,
-						`Designed and implemented a user auth system by creating custom hooks with <strong>React</strong> Context API and <strong>JWT tokens</strong> for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
+						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve employee capabilities by offering training and certifications.`,
+						`Designed and implemented a user auth system by creating custom hooks with <strong>React Context API</strong> and <strong>JWT tokens</strong> for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
 						`Implemented <strong>push notifications</strong> using Firebase and developed an in-app notification mechanism using Socket.IO to notify users about new training and certificates.`,
 						`Integrated <strong>Reactstrap</strong> design library to build the user interface and components. Used different libraries like <strong>React data table</strong> and <strong>i18n</strong> for introducing multi-lingual capacity in the platform.`,
 					]
