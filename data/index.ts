@@ -3,20 +3,20 @@ import { IData } from '@/types';
 
 const userData: IData = {
 	header: {
-		name: 'Muhammad Sarim Hassan',
-		phoneNumber: '+923244628572',
+		name: 'Muhammad Rasib',
+		phoneNumber: '+923297952264',
 		location: 'Lahore, Pakistan',
-		email: 'msarimdev@gmail.com',
-		linkedIn: 'linkedin.com/in/msarimhassan/',
-		github: 'github.com/msarimhassan'
+		email: 'rasibnadeemdev@gmail.com',
+		linkedIn: 'linkedin.com/in/rasib-nadeem-571a90189/',
+		github: 'github.com/rasibnadeem'
 	},
 	education: [
 		{
 			id: uuidv4(),
 			degree: 'B.Sc. of Computer Sciences',
-			university: 'University of Lahore',
+			university: 'Comsats University Islamabad',
 			location: 'Lahore, Pakistan',
-			duration: 'Sept 2018 - July 2022'
+			duration: 'January 2017 - January 2021'
 		}
 	],
 	skills: [
@@ -33,14 +33,18 @@ const userData: IData = {
 				'HTML',
 				'CSS',
 				'React',
+				'React Native',
 				'Next.js',
 				'Redux Toolkit',
+				'Vue.js',
+				'Nuxt.js',
+				'Bootstrap',
 				'Tailwind CSS',
 				'Styled Components',
-				'MongoDB',
 				'Node.js',
+				'MongoDB',
+				'PostgreSQL',
 				'REST APIs',
-				'React Native',
 				'GraphQL',
 				'Firebase'
 			]
@@ -48,7 +52,13 @@ const userData: IData = {
 		{
 			id: uuidv4(),
 			name: 'Soft Skills',
-			skill: ['Ownership', 'Rigor', 'Team work', 'Communication']
+			skill: [
+				'Team Leadership',
+				'Ownership',
+				'Rigor',
+				'Team work',
+				'Communication'
+			]
 		}
 	],
 	experience: [
@@ -57,7 +67,7 @@ const userData: IData = {
 			designation: 'Software Engineer',
 			company: 'The Hexaa',
 			location: 'Lahore, Pakistan',
-			duration: 'May 2022 - Present',
+			duration: 'Feb 2021 - June 2024',
 			tasks: [
 				{
 					id: uuidv4(),
@@ -70,21 +80,32 @@ const userData: IData = {
 				},
 				{
 					id: uuidv4(),
-					projectName: 'Roof Technology Partners',
+					projectName: 'Coupon Senet',
 					content: [
-						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve employee capabilities by offering training and certifications.`,
-						`Designed and implemented a user auth system by creating custom hooks with <strong>React Context API</strong> and <strong>JWT tokens</strong> for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
-						`Implemented <strong>push notifications</strong> using Firebase and developed an in-app notification mechanism using Socket.IO to notify users about new training and certificates.`,
-						`Integrated <strong>Reactstrap</strong> design library to build the user interface and components. Used different libraries like <strong>React data table</strong> and <strong>i18n</strong> for introducing multi-lingual capacity in the platform.`,
+						`Developed the complete app by using <strong>React Native</strong> and <strong>Redux</strong>. Integrated features like user authentication, coupon management, and coupon generation.`,
+						`Integrated Unity games with in the mobile application for both android and ios`,
+						`Deployed the app to Google Play Store and Apple App Store`
 					]
 				},
 				{
 					id: uuidv4(),
 					projectName: 'Lapco',
 					content: [
-						`Developed an e-commerce web app using <strong>Next.js</strong> and <strong>React Redux</strong> for a local computer vendor. Integrated features like product comparison, wishlist management, and a streamlined cart system.`,
+						`Developed an e-commerce web app using <strong>Next.js</strong> and <strong>React Redux</strong> for a computer vendor. Integrated features like product comparison, wishlist management, and a streamlined cart system.`,
 						`Developed a panel to power admin user to define <strong>custom form schema</strong>. Implemented a dynamic form feature that generates a “Sell to us” form from the server data based on admin provided schema. `,
-						`Engineered a coupon system using Next.js, Node.js, and MongoDB that lets admin generate coupons that can be used by customers on the checkout page.`
+						`Designed the backend architecture using <strong>Node.js</strong> and <strong>MongoDB</strong>`,
+						`Dockerized the backend and the frontend and deployed it on AWS Ec2`
+					]
+				},
+
+				{
+					id: uuidv4(),
+					projectName: 'RespondAbility',
+					content: [
+						`Lead React Js developer`,
+						`Responsible to convert Ruby on Rails UI code to React Js code.`,
+						`Responsible to integrate APIs and to make sure all the workflow were still functional.`,
+						`Responsible for creating new features and screens using TailwindCss`
 					]
 				}
 			]
@@ -118,10 +139,7 @@ const userData: IData = {
 	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 	// 	}
 	// ],
-	accomplishments: [
-		`Winner, Web Development Competition by <a href="https://uol.edu.pk/">Univeristy of Lahore</a>, Lahore (2020)`,
-		`Participating in Hactoberfest challenge since 2020.`
-	]
+	accomplishments: []
 };
 
 export default userData;
